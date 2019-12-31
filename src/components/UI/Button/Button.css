@@ -1,0 +1,35 @@
+.Button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+
+.Success {
+    color: lime;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+.Danger {
+    color: red;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+.Neutral {
+    color: yellow;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+.Button:disabled {
+    color: silver;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+    cursor: not-allowed
+}

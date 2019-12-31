@@ -1,0 +1,18 @@
+.CheckoutSummary {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto
+}
+
+.CheckoutSummary .Header {
+    color: greenyellow;
+    text-shadow: 0 0 2px black, 2px 2px 4px black;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+@media (min-width:600px) {
+    .CheckoutSummary {
+        width: 500px;
+    }
+}
